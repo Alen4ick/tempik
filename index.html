@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random YouTube Shorts</title>
+    <script>
+        // Вставьте свои ссылки на Shorts (замените VIDEO_ID_1, VIDEO_ID_2 и т. д.)
+        const links = [
+            "https://youtube.com/shorts/VIDEO_ID_1",
+            "https://youtube.com/shorts/VIDEO_ID_2",
+            "https://youtube.com/shorts/VIDEO_ID_3"
+        ];
+        // Случайный выбор ссылки
+        const randomLink = links[Math.floor(Math.random() * links.length)];
+        // Автоматический переход
+        window.location.href = randomLink;
+    </script>
+</head>
+<body>
+    <!-- Если JavaScript не сработает, можно добавить запасной текст -->
+    <p>Если перенаправление не произошло, <a href="https://youtube.com/@ваш_канал">перейдите вручную</a>.</p>
+</body>
+</html>
